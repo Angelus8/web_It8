@@ -8,13 +8,12 @@ exports.createUser = (req, res) => {
         numero,
         filiere,
         origine,
-        habitat,
+        commune,
         cite,
         social,
         username,
         password
     } = req.body;
-    console.log(nom,habitat, origine);
     const user = new User({
         nom,
         prenom,
@@ -22,7 +21,7 @@ exports.createUser = (req, res) => {
         numero,
         filiere,
         origine,
-        habitat,
+        commune,
         cite,
         social,
         username,
