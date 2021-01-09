@@ -7,17 +7,22 @@ exports.createUser = (req, res) => {
         email,
         numero,
         filiere,
+        origine,
+        habitat,
         cite,
         social,
         username,
         password
     } = req.body;
+    console.log(nom,habitat, origine);
     const user = new User({
         nom,
         prenom,
         email,
         numero,
         filiere,
+        origine,
+        habitat,
         cite,
         social,
         username,

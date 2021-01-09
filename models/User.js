@@ -21,6 +21,14 @@ const userSchema = mongoose.Schema({
         type: String,
         required: true
     },
+    origine: {
+        type: String,
+        required: true
+    },
+    habitat: {
+        type: String,
+        required: true
+    },
     cite: {
         type: String,
         required: true
